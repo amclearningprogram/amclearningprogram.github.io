@@ -1,5 +1,5 @@
 /* Title */
-.TheNexusWorkshop {
+.ALP {
   font-size: 30px;
   font-weight: bold;
   display: inline-block;
@@ -9,20 +9,20 @@
 /* Top Gradient - Current Top */
 .topgradient {
   height: 90px;
-  background-image: url("https://images.pexels.com/photos/957061/milky-way-starry-sky-night-sky-star-957061.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-image: url("https://cdn.discordapp.com/attachments/749044887134928916/848290556609298447/Screen_Shot_2021-05-29_at_4.03.29_PM.png");
   background-color: rgb(
     255,
     255,
     255
   ); /* For browsers that do not support gradients */
-  color: #a5f2f3;
+  color: #221166;
   opacity: 1;
 }
 
 /* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: #021f4b;
+  background-color: #cdcaff;
   font-family: Times New Roman;
 }
 
@@ -30,7 +30,7 @@
 .navbar a {
   float: left;
   font-size: 16px;
-  color: #a5f2f3;
+  color: #221166;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -47,7 +47,7 @@
   font-size: 16px;
   border: none;
   outline: none;
-  color: #a5f2f3;
+  color: #221166;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
@@ -57,14 +57,14 @@
 /* Add a black background color to navbar links on hover */
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
 }
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #021f4b;
+  background-color: #cdcaff;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -73,8 +73,8 @@
 /* Links inside the dropdown */
 .dropdown-content a {
   float: none;
-  color: #a5f2f3;
-  padding: 12px 16px;
+  color: #221166;
+  padding: 12px 62px;
   text-decoration: none;
   display: block;
   text-align: left;
@@ -82,7 +82,7 @@
 
 /* Add a black background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
 }
 
 /* Show the dropdown menu on hover */
@@ -97,7 +97,7 @@ body {
 .dropdown .dropbtn a {
   float: left;
   font-size: 16px;
-  color: #a5f2f3;
+  color: #221166;
   text-align: center;
   padding: 0px 16px;
   text-decoration: none;
