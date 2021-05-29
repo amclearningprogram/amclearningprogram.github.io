@@ -1,0 +1,85 @@
+/* White Border */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman";
+  font-size: 20px;
+}
+
+.ALP {
+  font-family: "Marker Felt";
+  font-weight: bold;
+}
+
+body {
+  background-image: url("https://cdn.discordapp.com/attachments/749044887134928916/848290556609298447/Screen_Shot_2021-05-29_at_4.03.29_PM.png");
+  background-position: center top;
+  background-size: auto;
+  background-repeat: repeat-x repeat-y;
+  color: #221166;
+}
+
+/* Centering Vertically and Horizontally */
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+}
+
+/* Buttons */
+.btn {
+  border: 1px solid #221166;
+  border-radius: 5px;
+  background-color: inherit;
+  padding: 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  color: #221166;
+  font-family: Times New Roman;
+  font-weight: bold;
+}
+
+/* On mouse-over */
+.btn:hover {
+  background: rgb(255, 255, 255);
+}
+
+a {
+  color: #221166;
+  text-decoration: none;
+}
+
+/* Page Break */
+.space {
+  color: white;
+  margin-top: 825px;
+}
+
+.one {
+  border-width: 5px;
+  border-style: none;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  height: auto;
+  background: #cdcaff;
+  background-origin: padding-box;
+  background-position: center;
+}
+
+.two {
+  border-width: 5px;
+  border-style: none;
+  margin-top: 0px;
+  padding-bottom: 5px;
+  background: #b1adfa;
+  background-origin: padding-box;
+  background-position: center;
+  margin-bottom: 0px;
+}
