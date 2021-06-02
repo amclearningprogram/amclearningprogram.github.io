@@ -1,3 +1,34 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@amclearningprogram 
+amclearningprogram
+/
+amclearningprogram.github.io
+1
+00
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+amclearningprogram.github.io/summations/summations.css
+@honeycombi
+honeycombi syllabus + logistics
+Latest commit bca24e6 4 days ago
+ History
+ 1 contributor
+42 lines (38 sloc)  815 Bytes
+  
 /* White Border */
 html {
   margin: 0;
@@ -13,7 +44,7 @@ html {
 }
 
 body {
-  background-image: url("https://images.pexels.com/photos/3109807/pexels-photo-3109807.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: url("https://images.pexels.com/photos/3029545/pexels-photo-3029545.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
   background-position: center top;
   background-size: auto;
   background-repeat: repeat-x repeat-y;
@@ -37,6 +68,6 @@ body {
 }
 
 a {
-  color: #000a2b;
+  color: #221166;
   text-decoration: none;
 }
