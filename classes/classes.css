@@ -7,11 +7,6 @@ html {
   border-color: none;
 }
 
-.ALP {
-  font-family: "Marker Felt";
-  font-weight: bold;
-}
-
 body {
   background-image: url("https://images.pexels.com/photos/3109807/pexels-photo-3109807.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-position: center top;
@@ -35,8 +30,7 @@ body {
   background-origin: padding-box;
   background-position: center;
 }
-
-a {
-  color: #221166;
-  text-decoration: none;
+.topback a {
+  color: darkblue;
+  text-decoration: underline;
 }
