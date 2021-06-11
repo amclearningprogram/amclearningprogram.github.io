@@ -35,8 +35,7 @@ body {
   background-origin: padding-box;
   background-position: center;
 }
-
-a {
-  color: #221166;
-  text-decoration: none;
+.topback a {
+  color: darkblue;
+  text-decoration: underline;
 }
