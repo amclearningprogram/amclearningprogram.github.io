@@ -13,7 +13,13 @@ html {
 }
 
 body {
-  background-image: url("https://images.pexels.com/photos/3029545/pexels-photo-3029545.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-image: linear-gradient(
+    #9988cc,
+    #8877bb,
+    #664499,
+    #221166,
+    #000022
+  );
   background-position: center top;
   background-size: auto;
   background-repeat: repeat-x repeat-y;

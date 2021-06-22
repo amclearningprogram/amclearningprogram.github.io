@@ -14,11 +14,15 @@ body {
 }
 
 body {
-  background-image: url("https://cdn.discordapp.com/attachments/749044887134928916/848290556609298447/Screen_Shot_2021-05-29_at_4.03.29_PM.png");
+  background-image: linear-gradient(
+    rgba(187, 170, 255, 1) 0%,
+    rgba(34, 0, 170, 1) 75%,
+    rgba(0, 0, 51, 1) 100%
+  );
   background-position: center top;
-  background-size: auto;
+  background-size: 100% 100%;
   background-repeat: repeat-x repeat-y;
-  color: #221166;
+  color: rgb(221, 231, 253);
 }
 
 /* Centering Vertically and Horizontally */
@@ -34,25 +38,25 @@ body {
 
 /* Buttons */
 .btn {
-  border: 1px solid #221166;
+  border: 1.5px solid rgba(0, 0, 51, 1);
   border-radius: 5px;
-  background-color: inherit;
+  background-color: rgb(236, 252, 255);
   padding: 10px 10px;
   font-size: 16px;
   cursor: pointer;
   display: inline-block;
-  color: #221166;
+  color: rgba(0, 0, 51, 1);
   font-family: Times New Roman;
   font-weight: bold;
 }
 
 /* On mouse-over */
 .btn:hover {
-  background: rgb(255, 255, 255);
+  background: rgb(190, 202, 255);
 }
 
 a {
-  color: #221166;
+  color: rgb(221, 231, 253);
   text-decoration: none;
 }
 
@@ -65,21 +69,9 @@ a {
 .one {
   border-width: 5px;
   border-style: none;
-  margin-top: 5px;
-  padding-bottom: 5px;
-  width: 100%;
-  height: auto;
-  background: #cdcaff;
-  background-origin: padding-box;
-  background-position: center;
-}
-
-.two {
-  border-width: 5px;
-  border-style: none;
   margin-top: 0px;
   padding-bottom: 5px;
-  background: #b1adfa;
+  background: #6633ee;
   background-origin: padding-box;
   background-position: center;
   margin-bottom: 0px;

@@ -9,13 +9,14 @@
 /* Top Gradient - Current Top */
 .topgradient {
   height: 90px;
-  background-image: url("https://cdn.discordapp.com/attachments/749044887134928916/848290556609298447/Screen_Shot_2021-05-29_at_4.03.29_PM.png");
-  background-color: rgb(
-    255,
-    255,
-    255
-  ); /* For browsers that do not support gradients */
-  color: #221166;
+  background-image: linear-gradient(
+    to right,
+    rgba(187, 170, 255, 1) 0%,
+    rgba(34, 0, 170, 1) 75%,
+    rgba(0, 0, 51, 1) 100%
+  );
+  /* For browsers that do not support gradients */
+  color: rgb(221, 231, 253);
   opacity: 1;
 }
 
