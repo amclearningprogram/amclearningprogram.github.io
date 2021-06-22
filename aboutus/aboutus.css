@@ -4,6 +4,7 @@ body {
   background-size: 100% auto;
   background-repeat: repeat-x repeat-y;
   color: #221166;
+  font-family: "sans-serif";
 }
 
 html {
