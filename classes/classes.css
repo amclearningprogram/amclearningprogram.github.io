@@ -45,9 +45,9 @@ body {
     text-align: center;
     vertical-align: middle;
     padding: 12px 24px;
-    border: 0px solid #a12727;
+    border: 1px solid #000033;
     border-radius: 8px;
-    background: #a997ee;
+    background: #aa99ee;
     background: -webkit-gradient(linear, left top, left bottom, from(#a997ee), to(#6533ee));
     background: -moz-linear-gradient(top, #a997ee, #6533ee);
     background: linear-gradient(to bottom, #a997ee, #6533ee);
