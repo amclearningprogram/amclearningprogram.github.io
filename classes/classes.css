@@ -40,3 +40,33 @@ body {
   color: darkblue;
   text-decoration: underline;
 }
+.btn {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 0px solid #a12727;
+    border-radius: 8px;
+    background: #a997ee;
+    background: -webkit-gradient(linear, left top, left bottom, from(#a997ee), to(#6533ee));
+    background: -moz-linear-gradient(top, #a997ee, #6533ee);
+    background: linear-gradient(to bottom, #a997ee, #6533ee);
+    font: normal normal bold 20px "sans-serif";
+    color: #000003;
+    text-decoration: none;
+}
+.btn:hover,
+.btn:focus {
+    background: #cbb5ff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#cbb5ff), to(#793dff));
+    background: -moz-linear-gradient(top, #cbb5ff, #793dff);
+    background: linear-gradient(to bottom, #cbb5ff, #793dff);
+    color: #000003;
+    text-decoration: none;
+}
+.btn:active {
+    background: #655b8f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#655b8f), to(#6533ee));
+    background: -moz-linear-gradient(top, #655b8f, #6533ee);
+    background: linear-gradient(to bottom, #655b8f, #6533ee);
+}
